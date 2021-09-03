@@ -1,0 +1,359 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+}
+
+.container-guardians{
+     width: 1440px;
+     height: auto;
+     margin: 0 auto;
+     background-color: #FFF2EA;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+
+
+     
+}
+
+.header-background{
+    background-image:url(/arquivos/Juta-2.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: #FCE6D8;
+}
+.title-header{
+  width: 50%;
+  margin-left: 350px;
+  margin-top: 120px;
+}
+.title-header img{
+  width: 700px;
+
+}
+.guardians-img{
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: #FCE6D8;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.guardians-img .img{
+    width: 645px;
+    height: 485px;
+    margin-left: 200px;
+  
+}
+.title{
+    width: 450px;
+    height: 60px;
+    margin-left: 30px;
+}
+.logo-title{
+    display: flex;
+    width: 450px;
+ 
+}
+.logo-title img{
+    width: 150px;
+}
+.logo-title span{
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+.title-botton{
+    margin-top: 30px;
+}
+.sobrepor-header{
+    z-index: 5000;
+    position: absolute;
+    margin-top: 480px;
+   
+}
+.sobrepor-header img{
+    width: 1440px;
+  
+    
+}
+.content-slider{
+    width: 1440px;
+    display: flex;
+    margin-top: 100px;
+    padding-left: 120px;
+    
+    
+}
+.slider-txt{
+    width: 40%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+.title-1{
+  width: 100%;
+  height: 60px;
+  margin-bottom: 30px;
+}
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container-slider-1 {
+    position: relative;
+    width: 40%;
+    display: flex;
+    margin-left: 80px;
+
+  }
+
+  .row-slider-1{
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+       width: 20%;
+       margin-top: 90px;
+  }
+  
+  
+  /* Hide the images by default */
+  .mySlides-1 {
+    display: none;
+    margin-top: 90px;
+  }
+  
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+ 
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row-slider-1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Six columns side by side */
+  .column-slider-1 {
+    float: left;
+    width: 390px;
+   
+  }
+  .column-slider-2 {
+    float: left;
+    width: 390px;
+   
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+
+  
+.slider-2{
+  width: 1440px;
+  height: auto;
+  display: flex;
+  margin-top: 20px;
+ 
+}
+.slider-3{
+  width: 1440px;
+  height: auto;
+  display: flex;
+  margin-top: 20px;
+ 
+}
+.slider-4{
+  width: 1440px;
+  height: auto;
+  display: flex;
+  margin-top: 20px;
+ 
+}
+.slider-txt-2{
+  width: 37%;
+  margin-left: 220px;
+  
+}
+.slider-txt-3{
+  width: 37%;
+  margin-left: 220px;
+  
+}
+.slider-txt-4{
+  width: 37%;
+  margin-left: 220px;
+  
+}
+
+  /* Position the image container (needed to position the left and right arrows) */
+  .container-slider-2 {
+    position: relative;
+    width: 40%;
+    display: flex;
+    margin-left: 80px;
+   
+
+  }
+  .container-slider-3 {
+    position: relative;
+    width: 40%;
+    display: flex;
+    margin-left: 80px;
+   
+
+  }
+  .container-slider-4 {
+    position: relative;
+    width: 40%;
+    display: flex;
+    margin-left: 80px;
+   
+
+  }
+
+  .row-slider-2{
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+       width: 20%;
+       margin-top: 90px;
+  }
+  .row-slider-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+     width: 20%;
+     margin-top: 90px;
+}
+.row-slider-4{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+   width: 20%;
+   margin-top: 90px;
+}
+  
+  
+  /* Hide the images by default */
+  .mySlides-2 {
+    display: none;
+    margin-top: 90px;
+  }
+  .mySlides-3 {
+    display: none;
+    margin-top: 90px;
+  }
+  .mySlides-4 {
+    display: none;
+    margin-top: 90px;
+  }
+  
+  
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+ 
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row-slider-2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row-slider-3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row-slider-4:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Six columns side by side */
+  .column-slider-2 {
+    float: left;
+    width: 390px;
+   
+  }
+  .column-slider-3 {
+    float: left;
+    width: 390px;
+   
+  }
+  .column-slider-4 {
+    float: left;
+    width: 390px;
+   
+  }
+
+
+
+ 
+
+  .slider-matiqueira{
+    width: 1440px;
+    height: auto;
+    display: flex;
+  }
+
+  .slider-ze-do-crato{
+    width: 1440px;
+    height: auto;
+
+    display: flex;
+  }

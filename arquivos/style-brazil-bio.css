@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: open Sans;
+}
+.header-brazil{
+    width: 1920px;
+    height: auto;
+    margin: 0 auto;
+    background-image: url(/arquivos/brazil.png);
+    background-repeat: no-repeat;
+
+ 
+    
+}
+.title-brazil{
+    width: 50%;
+    height: 100px;
+    margin-top: 100px;
+   
+}
+.title-block{
+    width: 1440px;
+    margin: 0 auto;
+}
+.content-title{
+    width: 1920px;
+    height: 800px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    
+}
+
+.background-green {
+    background-image: url(/arquivos/Brush-1.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50%;
+    margin-top: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background-green p{
+    color: #fff;
+    font-size: 20px;
+}
+.divisor{
+    width: 1920px;
+    margin-top: 200px;
+}
+.divisor img{
+    width: 1920px;
+}
+
+.box{
+    width: 1920px;
+
+}
+.container-map{
+    background-color: #E9F0AC;
+    height: auto;
+}
+.content-map{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+     
+}
+.title-txt{
+    margin-top: 150px;
+}
+.title-txt p{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.map-txt{
+    width: 1350px;
+    margin: 0 auto;
+    border: 1px solid #e9f0ac;
+}
+.map-txt p{
+    font-size: 20px;
+}
+.frutas{
+    border: 1px solid #e9f0ac;
+    background-image: url(/arquivos/Craft-frutas.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: auto;
+}
+.content-frutas{
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.fruta-1{
+    width: 320px;
+    height: 500px;
+    margin-right: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.fruta-1 .title{
+    margin-top: 10px;
+}
+.fruta-2 .title{
+    margin-top: 10px;
+}
+.fruta-3 .title{
+    margin-top: 10px;
+}
+.fruta-1 .descript span{
+        font-size: 18px;
+}
+
+.fruta-2{
+    width: 320px;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.fruta-2 .descript span{
+        font-size: 18px;
+       
+}
+.fruta-1 .descript {
+
+    margin-top: 50px;
+}
+.fruta-2 .descript {
+
+    margin-top: 50px;
+}
+.fruta-3 .descript {
+
+    margin-top: 50px;
+}
+
+.fruta-3{
+    width: 320px;
+    height: 500px;
+   
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.fruta-3 .descript span{
+        font-size: 18px;
+}

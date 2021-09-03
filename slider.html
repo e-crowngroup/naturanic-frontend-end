@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  <style>
+      * {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  
+  display: flex;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+
+/* Position the "next button" to the right */
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+  </style>
+<body>
+    <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+        <img src="./arquivos/slider-img-1.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+        <img src="./arquivos//slider-img-2.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+        <img src="./arquivos/slider-img-3.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+        <img src="./arquivos/slider-img-4.png" style="width:100%">
+    </div>
+ 
+  
+    <!-- Next and previous buttons -->
+   
+  
+    <!-- Image text -->
+   
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="./arquivos/slider-img-11.png" style="width:77%" onclick="currentSlide(1)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./arquivos/slider-img-22.png" style="width:77%" onclick="currentSlide(2)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./arquivos/slider-img-33.png" style="width:77%" onclick="currentSlide(3)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./arquivos/slider-img-44.png" style="width:77%" onclick="currentSlide(4)" alt="">
+      </div>
+      
+    </div>
+  </div>
+
+
+  <script>
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+    
+</script>
+
+    
+</body>
+
+</html>
