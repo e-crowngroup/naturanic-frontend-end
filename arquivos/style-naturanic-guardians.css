@@ -5,7 +5,7 @@ body{
 }
 
 .container-guardians{
-     width: 1440px;
+     width: 1920px;
      height: auto;
      margin: 0 auto;
      background-color: #FFF2EA;
@@ -21,11 +21,12 @@ body{
 .header-background{
     background-image:url(/arquivos/Juta-2.png);
     background-repeat: no-repeat;
-    width: 1440px;
+    width: 1920px;
     height: 350px;
     margin: 0 auto;
     background-color: #FCE6D8;
 }
+
 .title-header{
   width: 50%;
   margin-left: 350px;
@@ -33,10 +34,11 @@ body{
 }
 .title-header img{
   width: 700px;
+  margin-left: 180px;
 
 }
 .guardians-img{
-    width: 1440px;
+    width: 1920px;
     margin: 0 auto;
     padding-top: 50px;
     background-color: #FCE6D8;
@@ -48,7 +50,7 @@ body{
 .guardians-img .img{
     width: 645px;
     height: 485px;
-    margin-left: 200px;
+    margin-left: 400px;
   
 }
 .title{

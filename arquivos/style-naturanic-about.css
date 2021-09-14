@@ -2,15 +2,20 @@ body{
     margin: 0;
     padding: 0;
     font-family: Open Sans;
+    
+  
 }
+
+
 .container-about{
     width: 1920px;
     height: auto;
     margin: 0 auto;
     background-color: #FFE69F;
+    border: 1px solid green;
 }
 .container-background{
-    background-image: url(./background-yellow.png);
+    background-image: url(/arquivos/background-yellow.png);
     background-repeat: no-repeat;
     width: 1920px;
     height: 1150px;
@@ -24,7 +29,7 @@ body{
    position: absolute;
 }
 .header-about{
-    background-image: url(./header-1.png);
+    background-image: url(/arquivos/header-1.png);
     background-repeat: no-repeat;
     height: 750px;
     display: flex;
@@ -34,6 +39,12 @@ body{
 
    
 
+}
+.separador-yellow-mobile{
+    display: none;
+}
+ .frutas-mobile{
+    display: none;
 }
 .title-about{
    width: 80%;
@@ -57,6 +68,7 @@ body{
     align-items: center;
     justify-content: start;
     padding-left: 250px;
+    
 }
 .logo-organic img{
     width: 200px;
@@ -82,6 +94,9 @@ body{
    
 
 }
+.separador-mobile-top{
+    display: none;
+}
 .content-banner{
     order: 2;
 }
@@ -96,14 +111,18 @@ body{
     flex-direction: row;
 }
 .content-footer{
-    background-image: url(./Craft.png);
+    background-image: url(./Craft.jpg);
+    background-repeat: no-repeat;
     width: 1920px;
-    height: 800px;
+    height: auto;
     
 }
 .content-footer .title img{
     margin-top: 40px;
     margin-left: 250px;
+}
+.separador-footer-mobile{
+    display: none;
 }
 .separador-footer {
     z-index: 5000;
@@ -121,4 +140,346 @@ body{
     width: 40%;
     font-size: 20px;
 } 
+
+
+@media only screen and (min-width:320px) and (max-width:375px){
+ 
+   
+    .container-about{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #FFE69F;
+    }
+    
+    .container-background{
+        background-image: url(/arquivos/background-yellow.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        border: 1px solid red;
+    }
+    .container-background .separador{
+        width: 100%;
+    }
+     .header-about{
+       width: 100%;
+       height: auto;
+       background-image: url(/arquivos/Terra-mobile.png);
+       background-repeat: no-repeat;
+     }
+      .frutas-mobile{
+        border: 1px green solid;
+        display: flex;
+        flex-direction: row;
+        width: 150px;
+        right: auto;
+        order: 2;
+      
+    }
+
+     .logo-about{
+        margin-top: 50px;
+        order: 5;
+        padding-left: 0px;
+     
+
+      
+    }
+    .logo-organic img{
+        padding-right: 0px;
+    }
+  
+    .logo-biodiversity img{
+        padding-right: 0px;
+    }
+ 
+    .logo-naturanic img{
+        padding-top: 0px;
+       
+    }
+    .content-title{
+         order: 2;
+         margin-top: 70px;
+         width: 85%;
+         border: 1px green solid;
+         margin-left: 20px;
+    }
+    .content-title strong{
+        font-size: 1rem;
+    }
+   
+    .logo-about img{
+        width: 85px;
+        padding: 0;
+        margin: 9px;
+
+    }
+    .img-title{
+        border: 1px solid black;
+        display: flex;
+        justify-content:space-between;
+    }
+    .title-about{
+        border: 1px solid black;
+        margin-top: 40px;
+        width: 150px;
+        margin-left: 10px;
+  
+    }
+    .title-about img{
+        width: 120px;
+        border: 1px solid red;
+     
+    }
+    .content{
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       
+
+     }
+     .separador-mobile-top{
+        display: block;
+        position: absolute;
+        z-index: 5000;
+        margin-top: 470px;
+        max-width: 320px;
+
+    }
+ 
+    
+    .content-title br{
+        display: none;
+    }
+    .content-title p{
+        font-size: 16px;
+    }
+     .content-banner{
+         order: 20;
+     }
+     .content-banner img{
+         width: 320px;
+     }
+     .container-background .separador{
+         width: 320px;
+     }
+     .separador-footer{
+        display: none;
+     }
+     .separador-footer-mobile{
+         display: block;
+         z-index: 5000;
+         position: absolute;
+         width: 320px;
+         margin-top: 790px;
+    
+     }
+     .content-footer{
+         width: 100%;
+         height: auto;
+         padding-top: 50px;
+         
+     
+     }
+    
+     .content-footer .title img{
+      
+         margin-left: 20px;
+         width: 85%;
+         margin-top: 10px;
+         border: 1px solid purple;
+     }
+     .content-footer .text-footer{
+         padding-left: 35px;
+         height: auto;
+     
+     }
+     .content-footer .text-footer p{ 
+         width: 100%;
+     }
+     .content-footer .text-footer p{
+        width: 85%;
+        font-size: 16px;
+        border: 1px solid purple;
+    } 
+
+
+}
+
+@media only screen and (min-width:375px) and (max-width:640px){
+    .container-about{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        background-color: #FFE69F;
+    }
+    
+    .container-background{
+        background-image: url(/arquivos/background-yellow.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        border: 1px solid red;
+    }
+    .container-background .separador{
+        width: 100%;
+    }
+     .header-about{
+       width: 100%;
+       height: auto;
+       background-image: url(/arquivos/Terra-mobile.png);
+       background-repeat: no-repeat;
+     }
+      .frutas-mobile{
+        border: 1px green solid;
+        display: flex;
+        flex-direction: row;
+        width: 150px;
+        right: auto;
+        order: 2;
+      
+    }
+
+     .logo-about{
+        margin-top: 50px;
+        order: 5;
+        padding-left: 40px;
+     
+
+      
+    }
+    .logo-organic img{
+        padding-right: 0px;
+    }
+  
+    .logo-biodiversity img{
+        padding-right: 0px;
+    }
+ 
+    .logo-naturanic img{
+        padding-top: 0px;
+       
+    }
+    .content-title{
+         order: 2;
+         margin-top: 70px;
+         width: 85%;
+         border: 1px green solid;
+         margin-left: 20px;
+    }
+    .content-title strong{
+        font-size: 1rem;
+    }
+   
+    .logo-about img{
+        width: 85px;
+        padding: 0;
+        margin: 9px;
+
+    }
+    .img-title{
+        border: 1px solid black;
+        display: flex;
+        justify-content:space-between;
+    }
+    .title-about{
+        border: 1px solid black;
+        margin-top: 40px;
+        width: 150px;
+        margin-left: 10px;
+  
+    }
+    .title-about img{
+        width: 120px;
+        border: 1px solid red;
+     
+    }
+    .content{
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       
+
+     }
+     .separador-yellow-mobile{
+        display: block;
+        margin-top: 0px;
+        z-index: 7000;
+        position: absolute;
+        border: royalblue solid 1px;
+        width: 100%;
+    }
+     .separador{
+        width: 640px;
+     }
+     .separador-mobile-top{
+        display: block;
+        position: absolute;
+        z-index: 5000;
+        border: royalblue solid 1px;
+       
+     
+
+    }
+ 
+    
+    .content-title br{
+        display: none;
+    }
+    .content-title p{
+        font-size: 16px;
+    }
+     .content-banner{
+         order: 20;
+     }
+     .content-banner img{
+         width: 100%;
+     }
+     .container-background .separador{
+         width: 320px;
+     }
+     .separador-footer{
+        display: none;
+     }
+     .separador-footer-mobile{
+         display: block;
+         z-index: 5000;
+         position: absolute;
+         width: 320px;
+         margin-top: 790px;
+    
+     }
+     .content-footer{
+         width: 100%;
+         height: auto;
+         padding-top: 50px;
+         
+     
+     }
+    
+     .content-footer .title img{
+      
+         margin-left: 20px;
+         width: 85%;
+         margin-top: 10px;
+         border: 1px solid purple;
+     }
+     .content-footer .text-footer{
+         padding-left: 35px;
+         height: auto;
+     
+     }
+     .content-footer .text-footer p{ 
+         width: 100%;
+     }
+     .content-footer .text-footer p{
+        width: 85%;
+        font-size: 16px;
+        border: 1px solid purple;
+    } 
+
+
+}
+
 
