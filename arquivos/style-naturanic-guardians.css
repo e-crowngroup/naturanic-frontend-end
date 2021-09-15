@@ -13,6 +13,7 @@ body{
      align-items: center;
      justify-content: center;
      flex-direction: column;
+     border: 1px solid blue;
 
 
      
@@ -25,16 +26,19 @@ body{
     height: 350px;
     margin: 0 auto;
     background-color: #FCE6D8;
+    border: 1px solid blue;
 }
 
 .title-header{
   width: 50%;
   margin-left: 350px;
   margin-top: 120px;
+  border: 1px solid blue;
 }
 .title-header img{
   width: 700px;
   margin-left: 180px;
+  border: 1px solid blue;
 
 }
 .guardians-img{
@@ -44,6 +48,7 @@ body{
     background-color: #FCE6D8;
     display: flex;
     flex-direction: row;
+    border: 1px solid blue;
 
     
 }
@@ -51,37 +56,45 @@ body{
     width: 645px;
     height: 485px;
     margin-left: 400px;
+    border: 1px solid blue;
   
 }
 .title{
     width: 450px;
     height: 60px;
     margin-left: 30px;
+    border: 1px solid blue;
 }
 .logo-title{
     display: flex;
     width: 450px;
+    border: 1px solid blue;
  
 }
 .logo-title img{
     width: 150px;
+    border: 1px solid blue;
 }
 .logo-title span{
     text-align: left;
     padding-top: 20px;
     margin-left: 50px;
+    border: 1px solid blue;
 }
 .title-botton{
     margin-top: 30px;
+    border: 1px solid blue;
 }
 .sobrepor-header{
     z-index: 5000;
     position: absolute;
     margin-top: 480px;
+    border: 1px solid blue;
    
 }
 .sobrepor-header img{
     width: 1440px;
+    border: 1px solid blue;
   
     
 }
@@ -90,6 +103,7 @@ body{
     display: flex;
     margin-top: 100px;
     padding-left: 120px;
+    border: 1px solid blue;
     
     
 }
@@ -98,12 +112,14 @@ body{
     margin-left: 100px;
     display: flex;
     flex-direction: column;
+    border: 1px solid blue;
 
 }
 .title-1{
   width: 100%;
   height: 60px;
   margin-bottom: 30px;
+  border: 1px solid blue;
 }
 * {
     box-sizing: border-box;
@@ -116,6 +132,7 @@ body{
     width: 40%;
     display: flex;
     margin-left: 80px;
+    border: 1px solid blue;
 
   }
 
@@ -125,6 +142,7 @@ body{
       margin-left: 20px;
        width: 20%;
        margin-top: 90px;
+       border: 1px solid blue;
   }
   
   
@@ -132,6 +150,7 @@ body{
   .mySlides-1 {
     display: none;
     margin-top: 90px;
+    border: 1px solid blue;
   }
   
   
@@ -147,6 +166,7 @@ body{
     padding: 8px 12px;
     position: absolute;
     top: 0;
+    border: 1px solid blue;
   }
   
   /* Container for image text */
@@ -155,22 +175,26 @@ body{
     background-color: #222;
     padding: 2px 16px;
     color: white;
+    border: 1px solid blue;
   }
   
   .row-slider-1:after {
     content: "";
     display: table;
     clear: both;
+    border: 1px solid blue;
   }
   /* Six columns side by side */
   .column-slider-1 {
     float: left;
     width: 390px;
+    border: 1px solid blue;
    
   }
   .column-slider-2 {
     float: left;
     width: 390px;
+    border: 1px solid blue;
    
   }
   
@@ -192,6 +216,7 @@ body{
   height: auto;
   display: flex;
   margin-top: 20px;
+  border: 1px solid blue;
  
 }
 .slider-3{
@@ -199,6 +224,7 @@ body{
   height: auto;
   display: flex;
   margin-top: 20px;
+  border: 1px solid blue;
  
 }
 .slider-4{
@@ -206,21 +232,25 @@ body{
   height: auto;
   display: flex;
   margin-top: 20px;
+  border: 1px solid blue;
  
 }
 .slider-txt-2{
   width: 37%;
   margin-left: 220px;
+  border: 1px solid blue;
   
 }
 .slider-txt-3{
   width: 37%;
   margin-left: 220px;
+  border: 1px solid blue;
   
 }
 .slider-txt-4{
   width: 37%;
   margin-left: 220px;
+  border: 1px solid blue;
   
 }
 
@@ -230,6 +260,7 @@ body{
     width: 40%;
     display: flex;
     margin-left: 80px;
+    border: 1px solid blue;
    
 
   }
@@ -238,6 +269,7 @@ body{
     width: 40%;
     display: flex;
     margin-left: 80px;
+    border: 1px solid blue;
    
 
   }
@@ -246,6 +278,7 @@ body{
     width: 40%;
     display: flex;
     margin-left: 80px;
+    border: 1px solid blue;
    
 
   }
@@ -256,6 +289,7 @@ body{
       margin-left: 20px;
        width: 20%;
        margin-top: 90px;
+       border: 1px solid blue;
   }
   .row-slider-3{
     display: flex;
@@ -263,6 +297,7 @@ body{
     margin-left: 20px;
      width: 20%;
      margin-top: 90px;
+     border: 1px solid blue;
 }
 .row-slider-4{
   display: flex;
@@ -270,6 +305,7 @@ body{
   margin-left: 20px;
    width: 20%;
    margin-top: 90px;
+   border: 1px solid blue;
 }
   
   
@@ -277,14 +313,17 @@ body{
   .mySlides-2 {
     display: none;
     margin-top: 90px;
+    border: 1px solid blue;
   }
   .mySlides-3 {
     display: none;
     margin-top: 90px;
+    border: 1px solid blue;
   }
   .mySlides-4 {
     display: none;
     margin-top: 90px;
+    border: 1px solid blue;
   }
   
   
@@ -309,6 +348,7 @@ body{
     background-color: #222;
     padding: 2px 16px;
     color: white;
+    border: 1px solid blue;
   }
   
   .row-slider-2:after {
@@ -330,16 +370,19 @@ body{
   .column-slider-2 {
     float: left;
     width: 390px;
+    border: 1px solid blue;
    
   }
   .column-slider-3 {
     float: left;
     width: 390px;
+    border: 1px solid blue;
    
   }
   .column-slider-4 {
     float: left;
     width: 390px;
+    border: 1px solid blue;
    
   }
 
@@ -351,6 +394,7 @@ body{
     width: 1440px;
     height: auto;
     display: flex;
+    border: 1px solid blue;
   }
 
   .slider-ze-do-crato{
@@ -358,4 +402,183 @@ body{
     height: auto;
 
     display: flex;
+    border: 1px solid blue;
   }
+
+
+@media only screen and (max-width: 414px){
+
+
+  .container-guardians{
+    width: 100%;
+    border: 1px solid red;
+  }
+  .header-background{
+    background-image: url(/arquivos/Juta-mobile.png);
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+
+  }
+  .title-header{
+   border: 1px solid green;
+   margin: 0;
+   padding: 0;
+  }
+  .title-header img{
+    width: 300px;
+    height: auto;
+    margin: 0;
+    border: 1px solid red;
+    margin: 0;
+  }
+  .guardians-img{
+    width: 100%;
+    padding-top: 0;
+    margin-bottom: 450px;
+    flex-direction: column;
+  }
+  .guardians-img .img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .sobrepor-header{
+    display: none;
+  }
+  .sobrepor-header img{
+    display: none;
+  
+    
+}
+  .title{
+    width: 100%;
+    margin-left: 0;
+ 
+  }
+  .title-1{
+    width: 90%;
+   
+  }
+  .title-1 img{
+    width: 250px;
+  }
+  .title-1 span{
+    font-size: 16px;
+    border: green solid 1px;
+  }
+  
+  .logo-title{
+    width: 100%;
+    height: 200px;
+    border: 1px solid green;
+  }
+  .logo-title span{
+    width: 100%;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .content-slider{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .column-slider-1{
+   width: 50px;
+   background-color: blue;
+   margin: 2px;
+  }
+  .row-slider-1{
+     margin-top: 0;
+  }
+  .container-slider-1{
+    margin-left: 20px;
+  }
+  .container-slider-2{
+    width: 80%;
+    margin-left: 10px;
+  }
+  .container-slider-3{
+    margin-left: 10px;
+  }
+  .container-slider-4{
+     margin-left: 10px;
+  }
+  .mySlides-1{
+    margin-top: 10px;
+  }
+
+  .column-slider-2{
+    width: 50px;
+    background-color: blue;
+    margin: 2px;
+   }
+   .column-slider-3{
+    width: 50px;
+    background-color: blue;
+    margin: 2px;
+   }
+   .column-slider-4{
+    width: 50px;
+    background-color: blue;
+    margin: 2px;
+   }
+ 
+  .slider-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slider-txt{
+    margin-left: 20px;
+    width: 90%;
+  }
+  .slider-txt-2{
+    margin-left: 0;
+    width: 90%;
+  }
+  .slider-txt .title-1 img{
+    width: 150px;
+  }
+  .slider-txt-2 .title-1 img{
+    width: 150px;
+  }
+  .slider-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .slider-txt-3{
+    margin-left: 0;
+    width: 100%;
+  }
+  .slider-txt-3 .title-1{
+      margin-bottom: 0px;
+  }
+  .slider-txt-3 span{
+      width: 90%;
+  }
+  .slider-4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slider-4 .slider-txt-4{
+    margin-left: 0;
+    width: 90%;
+   
+  }
+  .slider-matiqueira{
+    width: 100%;
+  }
+  .slider-ze-do-crato{
+    width: 100%;
+  }
+
+}

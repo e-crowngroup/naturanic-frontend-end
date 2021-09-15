@@ -12,7 +12,7 @@ body{
     height: auto;
     margin: 0 auto;
     background-color: #FFE69F;
-    border: 1px solid green;
+
 }
 .container-background{
     background-image: url(/arquivos/background-yellow.png);
@@ -40,9 +40,8 @@ body{
    
 
 }
-.separador-yellow-mobile{
-    display: none;
-}
+
+
  .frutas-mobile{
     display: none;
 }
@@ -94,9 +93,7 @@ body{
    
 
 }
-.separador-mobile-top{
-    display: none;
-}
+
 .content-banner{
     order: 2;
 }
@@ -121,18 +118,7 @@ body{
     margin-top: 40px;
     margin-left: 250px;
 }
-.separador-footer-mobile{
-    display: none;
-}
-.separador-footer {
-    z-index: 5000;
-    position: absolute;
-   top: 1850px;
 
-
-   
-
-}
 .content-footer .text-footer{
     padding-left: 250px;
 }
@@ -142,7 +128,7 @@ body{
 } 
 
 
-@media only screen and (min-width:320px) and (max-width:375px){
+@media only screen and (min-width:320px) and (max-width:414px){
  
    
     .container-about{
@@ -157,7 +143,6 @@ body{
         background-repeat: no-repeat;
         width: 100%;
         height: auto;
-        border: 1px solid red;
     }
     .container-background .separador{
         width: 100%;
@@ -169,7 +154,6 @@ body{
        background-repeat: no-repeat;
      }
       .frutas-mobile{
-        border: 1px green solid;
         display: flex;
         flex-direction: row;
         width: 150px;
@@ -202,7 +186,6 @@ body{
          order: 2;
          margin-top: 70px;
          width: 85%;
-         border: 1px green solid;
          margin-left: 20px;
     }
     .content-title strong{
@@ -216,12 +199,10 @@ body{
 
     }
     .img-title{
-        border: 1px solid black;
         display: flex;
         justify-content:space-between;
     }
     .title-about{
-        border: 1px solid black;
         margin-top: 40px;
         width: 150px;
         margin-left: 10px;
@@ -229,7 +210,6 @@ body{
     }
     .title-about img{
         width: 120px;
-        border: 1px solid red;
      
     }
     .content{
@@ -239,14 +219,7 @@ body{
        
 
      }
-     .separador-mobile-top{
-        display: block;
-        position: absolute;
-        z-index: 5000;
-        margin-top: 470px;
-        max-width: 320px;
-
-    }
+   
  
     
     .content-title br{
@@ -288,7 +261,6 @@ body{
          margin-left: 20px;
          width: 85%;
          margin-top: 10px;
-         border: 1px solid purple;
      }
      .content-footer .text-footer{
          padding-left: 35px;
@@ -301,13 +273,12 @@ body{
      .content-footer .text-footer p{
         width: 85%;
         font-size: 16px;
-        border: 1px solid purple;
     } 
 
 
 }
 
-@media only screen and (min-width:375px) and (max-width:640px){
+@media only screen and (min-width: 414px) and (max-width:640px){
     .container-about{
         width: 100%;
         height: auto;
@@ -320,7 +291,6 @@ body{
         background-repeat: no-repeat;
         width: 100%;
         height: auto;
-        border: 1px solid red;
     }
     .container-background .separador{
         width: 100%;
@@ -332,7 +302,6 @@ body{
        background-repeat: no-repeat;
      }
       .frutas-mobile{
-        border: 1px green solid;
         display: flex;
         flex-direction: row;
         width: 150px;
@@ -365,7 +334,6 @@ body{
          order: 2;
          margin-top: 70px;
          width: 85%;
-         border: 1px green solid;
          margin-left: 20px;
     }
     .content-title strong{
@@ -379,12 +347,10 @@ body{
 
     }
     .img-title{
-        border: 1px solid black;
         display: flex;
         justify-content:space-between;
     }
     .title-about{
-        border: 1px solid black;
         margin-top: 40px;
         width: 150px;
         margin-left: 10px;
@@ -392,7 +358,6 @@ body{
     }
     .title-about img{
         width: 120px;
-        border: 1px solid red;
      
     }
     .content{
@@ -407,7 +372,6 @@ body{
         margin-top: 0px;
         z-index: 7000;
         position: absolute;
-        border: royalblue solid 1px;
         width: 100%;
     }
      .separador{
@@ -417,7 +381,8 @@ body{
         display: block;
         position: absolute;
         z-index: 5000;
-        border: royalblue solid 1px;
+        width: 100%;
+ 
        
      
 
@@ -463,7 +428,6 @@ body{
          margin-left: 20px;
          width: 85%;
          margin-top: 10px;
-         border: 1px solid purple;
      }
      .content-footer .text-footer{
          padding-left: 35px;
@@ -476,7 +440,6 @@ body{
      .content-footer .text-footer p{
         width: 85%;
         font-size: 16px;
-        border: 1px solid purple;
     } 
 
 
